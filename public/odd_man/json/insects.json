@@ -1,0 +1,19 @@
+[
+    {"name":"ant","src":"../images/insects/ant.png"},
+    {"name":"bee","src":"../images/insects/bee.png"},
+    {"name":"bug","src":"../images/insects/bug.png"},
+    {"name":"bug1","src":"../images/insects/bug1.png"},
+    {"name":"butterfly","src":"../images/insects/butterfly.png"},
+    {"name":"butterfly1","src":"../images/insects/butterfly1.png"},
+    {"name":"butterfly2","src":"../images/insects/butterfly2.png"},
+    {"name":"caterpillar","src":"../images/insects/caterpillar.png"},
+    {"name":"cockroach","src":"../images/insects/cockroach.png"},
+    {"name":"cockroach2","src":"../images/insects/cockroach2.png"},
+    {"name":"dragon fly","src":"../images/insects/dragon fly.png"},
+    {"name":"dragonfly2","src":"../images/insects/dragonfly2.png"},
+    {"name":"dragonfly1","src":"../images/insects/dragonfly1.png"},
+    {"name":"fly","src":"../images/insects/fly.png"},
+    {"name":"grasshoper","src":"../images/insects/grasshoper.png"},
+    {"name":"honey bee","src":"../images/insects/honey bee.png"},
+    {"name":"snail","src":"../images/insects/snail.png"}
+]

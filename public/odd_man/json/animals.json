@@ -1,0 +1,12 @@
+[
+    {"name":"cat","src":"../images/animals/cat.png"},
+    {"name":"chameleon","src":"../images/animals/chameleon.png"},
+    {"name":"crocodile","src":"../images/animals/crocodile.png"},
+    {"name":"elephant","src":"../images/animals/elephant.png"},
+    {"name":"fish","src":"../images/animals/fish.png"},
+    {"name":"giraffee","src":"../images/animals/giraffee.png"},
+    {"name":"hen","src":"../images/animals/hen.png"},
+    {"name":"horse","src":"../images/animals/horse.png"},
+    {"name":"penguin","src":"../images/animals/penguin.png"},
+    {"name":"pig","src":"../images/animals/pig.png"}
+]

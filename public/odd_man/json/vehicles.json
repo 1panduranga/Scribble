@@ -1,0 +1,12 @@
+[
+    {"name":"ambulance","src":"../images/vehicles/ambulance.png"},
+    {"name":"bike","src":"../images/vehicles/bike.png"},
+    {"name":"boat","src":"../images/vehicles/boat.png"},
+    {"name":"car","src":"../images/vehicles/car.png"},
+    {"name":"car1","src":"../images/vehicles/car1.png"},
+    {"name":"school-bus","src":"../images/vehicles/school-bus.png"},
+    {"name":"scooter","src":"../images/vehicles/scooter.png"},
+    {"name":"truck","src":"../images/vehicles/truck.png"},
+    {"name":"truck2","src":"../images/vehicles/truck2.png"},
+    {"name":"truck3","src":"../images/vehicles/truck3.png"}
+]

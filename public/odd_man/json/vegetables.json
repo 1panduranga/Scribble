@@ -1,0 +1,14 @@
+[
+    {"name":"beans","src":"../images/vegetables/png/beans.png"},
+    {"name":"brinjal","src":"../images/vegetables/png/brinjal.png"},
+    {"name":"broccoli","src":"../images/vegetables/png/broccoli.png"}, 
+    {"name":"carrot","src":"../images/vegetables/png/carrot.png"},
+    {"name":"cauliflower","src":"../images/vegetables/png/cauliflower.png"},
+    {"name":"chili","src":"../images/vegetables/png/chili.png"},
+    {"name":"corn","src":"../images/vegetables/png/corn.png"},
+    {"name":"garlic","src":"../images/vegetables/png/garlic.png"},
+    {"name":"onion","src":"../images/vegetables/png/onion.png"},
+    {"name":"pumpkin","src":"../images/vegetables/png/pumpkin.png"},
+    {"name":"radish","src":"../images/vegetables/png/radish.png"},
+    {"name":"tomato","src":"../images/vegetables/png/tomato.png"}
+    ]

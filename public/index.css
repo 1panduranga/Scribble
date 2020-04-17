@@ -1,0 +1,252 @@
+.iconc i
+{
+margin:0px 15px;
+}
+.lis 
+{
+    border-radius: 10px;
+    
+}
+.lis a h5{
+    padding:20px;
+}
+h5{
+    padding:0px 0px 20px 0px;
+}
+.page-footer
+{
+    margin:50px 0px 0px 0px;
+}
+.icon{
+    margin:0px 10px;
+
+}
+.icon i{
+    margin:0px 5px;
+}
+.icon h6{
+    display: inline;
+    margin:0px 10px;
+}
+.brand-logo
+{
+    margin: 0px 5%;
+}
+.burger
+{
+margin:0px 5px;
+}
+.container
+{
+    min-width:85%;
+    border:10px;
+}
+.lander
+{
+    height:90%;
+}
+.text-des
+{
+    margin:18% 0%;
+}
+h6{
+    line-height: 1.6em;
+    font-size: 1.2em;
+    text-align: justify;
+}
+.l_responsive-img
+{
+    margin:25% 0%;
+    max-width:300px;
+    max-height:300px;
+}
+
+.cont{
+    padding:70px 0px;
+}
+.card:hover{
+    cursor: pointer;
+    transform: translate(0px,-8px);
+    transition: 0.4s;
+}
+.page-footer{
+    padding:10px 0px 10px 0px; 
+}
+.card-image
+{
+height:210px;
+}
+.card-content
+{
+    position: relative;
+    top:-40px;
+}
+.card-image img{
+    height: 170px;
+    max-width:170px;
+    margin:auto;
+ padding:20px auto;
+}
+.card{
+    border-radius:20px;
+    height:250px;
+}
+.round
+{
+border-radius:25px;
+margin:1% auto;
+}
+
+
+
+
+.l{
+    width:400px;
+}
+.pro_name,.pro_email{
+    margin:5px 0px 0px 20px;
+}
+.change-option:hover{
+    cursor: pointer;
+}
+.block{
+    display: none;
+}
+.modal
+{
+    border-radius: 20px;
+    padding:20px;
+}
+.pro_img
+{
+    border-radius: 50%;
+}
+
+.logout{
+    margin:20px 0px 0px 0px ;
+}
+.large_table{
+    display:block;
+}
+.small_table{
+    display:none;
+}
+
+
+
+@media screen and (max-width:992px){
+    .lmsg{
+        position: fixed;
+    }
+    .t{
+        font-size:0.8em;
+        font-weight:bold;
+    } .pro_det h6{
+        font-size:0.6em;
+        text-align: center;
+        }
+        td{
+            width:170px;
+        }
+
+    .tit h5{
+        margin:0px;
+        padding:0px;
+    }
+    .modal{
+        margin:0px auto;
+    }
+    .pro_img{
+        width:100px;
+        height:100px;
+    }
+    .large_table{
+        display:none;
+    }
+    .small_table{
+        display:block;
+    }
+    .modal{
+        width:97%;
+        padding:0px;
+    }
+    #signup-email,#login-email,#signup-password,#login-password{
+        width:105%;
+       
+    }
+    #modal-login{
+        overflow:auto;
+        height:fit-content;
+    }
+
+.responsive-img
+{
+    margin:5% 0% 10% 0%;
+    max-width:300px;
+    max-height:300px;
+}
+.brand-logo
+{
+    margin: 0px 0%;
+}
+.l_responsive-img
+{
+    margin:2% 0% 30% 0%;
+    max-width:180px;
+    max-height:180px;
+}
+.round
+{
+border-radius:15px;
+margin:10% auto;
+}
+.logo{
+    font-size:2em;
+    padding:0px 0px 0px 30px;
+}
+
+.card-image
+{
+max-height:130px;
+}
+.card-image img{
+    height: 140px;
+    position:relative;
+    top:20%;
+    margin: 5px auto 0px auto;
+}
+.card-content
+{
+    position: relative;
+    top:0px;
+}
+.spacing
+{
+    margin:0px 0px 20px 0px;
+}
+.page-footer{
+    padding:10px 0px 30px 0px; 
+}
+.card-content span p{ 
+    font-size:0.8em;
+    font-weight:normal;
+}
+.logo {
+    font-size:2em;
+    display: inline;
+}
+.logo{
+    padding:0px;
+    margin:-2px 5px;
+}
+.l img {
+ height:25px;
+ width:25px;
+ padding:0px;
+ margin:10px 0px 0px 0px;
+}
+.l a p{
+    font-weight:normal;
+}
+
+}

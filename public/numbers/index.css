@@ -1,0 +1,170 @@
+
+.drop_box{
+    width: 120px;
+    height: 130px;
+    border: 2px dashed #aaaaaa;
+    display: inline-block;
+  }
+  .goimg
+  {
+    height:200px;
+    width:200px;
+  }
+  .drag_box
+  {
+    width:120px;
+    height:130px;
+    display: inline-block;
+    animation-duration: 0.6s;
+    animation-fill-mode: both;
+    animation-iteration-count:1;
+    animation-name: flash;
+  }
+  .drag_box:hover{
+    cursor: pointer;
+  }
+  .title{
+    margin:40px auto 0px auto;
+  }
+    @keyframes flash
+{
+    0%{transform: scale(1);}
+    20%{transform: scale(0.5);}
+    40%{transform: scale(0.5);}
+    60%{transform: scale(1);}
+    80%{transform:scale(1.2);}
+    100%{transform: scale(1);}
+}
+#drop_container
+{
+  width:1150px;
+margin:5% auto;
+}
+#drag_container{
+  width:1150px;
+  margin:2% auto;
+}
+
+
+.l{
+  width:400px;
+}
+.pro_name,.pro_email{
+  margin:5px 0px 0px 20px;
+}
+.change-option:hover{
+  cursor: pointer;
+}
+.block{
+  display: none;
+}
+.modal
+{
+  border-radius: 20px;
+  padding:20px;
+}
+.pro_img
+{
+  border-radius: 50%;
+}
+
+.logout{
+  margin:20px 0px 0px 0px ;
+}
+.large_table{
+  display:block;
+}
+.small_table{
+  display:none;
+}
+
+@media screen and (max-width:992px){
+  .lmsg{
+    position: fixed;
+}
+.t{
+    font-size:0.8em;
+    font-weight:bold;
+} .pro_det h6{
+    font-size:0.6em;
+    text-align: center;
+    }
+    td{
+        width:170px;
+    }
+
+.tit h5{
+    margin:0px;
+    padding:0px;
+}
+.modal{
+    margin:0px auto;
+}
+.pro_img{
+    width:100px;
+    height:100px;
+}
+.large_table{
+    display:none;
+}
+.small_table{
+    display:block;
+}
+.modal{
+    width:97%;
+    padding:0px;
+}
+#signup-email,#login-email,#signup-password,#login-password,#signup-name{
+    width:105%;
+   
+}
+#modal-login{
+    overflow:auto;
+    height:fit-content;
+}
+  .drop_box{
+    width: 60px;
+    height: 65px;
+    border: 1px dashed #aaaaaa;
+  }
+  .drag_box
+  {
+    width:60px;
+    height:65px;
+    animation-duration: 0.6s;
+    animation-fill-mode: both;
+    animation-iteration-count:1;
+    animation-name: flash;
+  }
+  #drag_container{
+    margin:30px auto;
+    width:90%;
+  }
+  #drop_container{
+    margin:20px auto;
+    width:95%;
+  }
+  .logo {
+    font-size:2em;
+    display: inline;
+}
+.logo{
+    padding:0px;
+    margin:-2px 5px;
+}
+.l img {
+ height:25px;
+ width:25px;
+ padding:0px;
+ margin:10px 0px 0px 0px;
+}
+.l a p{
+  font-weight:normal;
+}
+.change-option{
+  margin:-15px auto 0px auto;
+}
+
+
+
+}

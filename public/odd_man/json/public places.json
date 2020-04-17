@@ -1,0 +1,11 @@
+[
+    {"name":"bank","src":"../images/public places/bank.png"},
+    {"name":"church","src":"../images/public places/church.png"},
+    {"name":"firestation","src":"../images/public places/firestation.png"},
+    {"name":"hosipital","src":"../images/public places/hosipital.png"},
+    {"name":"library","src":"../images/public places/library.png"},
+    {"name":"museum","src":"../images/public places/museum.png"},
+    {"name":"place1","src":"../images/public places/place1.png"},
+    {"name":"place2","src":"../images/public places/place2.png"},
+    {"name":"post office","src":"../images/public places/post office.png"}
+]

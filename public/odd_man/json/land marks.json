@@ -1,0 +1,19 @@
+[
+    {"no":1,"name":"big ben","src":"../images/land marks/png/big-ben.png"},
+    {"no":2,"name":"burj al arab","src":"../images/land marks/png/burj-al-arab.png"},
+    {"no":3,"name":"christ the redeemer","src":"../images/land marks/png/christ-the-redeemer.png"},
+    {"no":4,"name":"eiffel tower","src":"../images/land marks/png/eiffel-tower.png"},
+    {"no":5,"name":"golden gate bridge","src":"../images/land marks/png/golden-gate-bridge.png"},
+    {"no":6,"name":"great buddha of thailand","src":"../images/land marks/png/great-buddha-of-thailand.png"},
+    {"no":7,"name":"great wall of china","src":"../images/land marks/png/great-wall-of-china.png"},
+    {"no":8,"name":"leaning tower of pisa","src":"../images/land marks/png/leaning-tower-of-pisa.png"},
+    {"no":9,"name":"london bridge","src":"../images/land marks/png/london-bridge.png"},
+    {"no":10,"name":"moais","src":"../images/land marks/png/moais.png"},
+    {"no":11,"name":"petronas towers","src":"../images/land marks/png/petronas-towers.png"},
+    {"no":12,"name":"pyramids","src":"../images/land marks/png/pyramids.png"},
+    {"no":13,"name":"statue of liberty","src":"../images/land marks/png/statue-of-liberty.png"},
+    {"no":14,"name":"stonehenge","src":"../images/land marks/png/stonehenge.png"},
+    {"no":15,"name":"sydney opera house","src":"../images/land marks/png/sydney-opera-house.png"},
+    {"no":16,"name":"taj mahal","src":"../images/land marks/png/taj-mahal.png"},
+    {"no":17,"name":"torii gate","src":"../images/land marks/png/torii-gate.png"}
+]

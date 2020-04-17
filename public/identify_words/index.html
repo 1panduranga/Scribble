@@ -1,0 +1,399 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>scribble - identify word</title>
+    <link rel="shortcut icon" href="../images/pencil.ico" type="image/x-icon">
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link type="text/css" rel="stylesheet" href="../index.css">
+    <link href="index.css" rel="stylesheet" type="text/css"> 
+    
+</head>
+<body>
+    <header>
+        <nav class="nav-wrapper white z-depth-1 " >
+            <div class="container ">
+                <a href="../"class="brand-logo grey-text text-darken-4">scribble</a> 
+                <ul class="right nav_link hide-on-med-and-down">
+                        <li><a class='dropdown-trigger grey-text text-darken-4 center' href='#' data-target='dropdown1' style="width:150px;">All Games</a></li>
+                        <li class="block s_profile "><a href="" class="grey-text text-darken-4 modal-trigger "data-target="modal-profile">profile</a></li>
+                        <li class="block s_login"><a href="" class="grey-text text-darken-4 modal-trigger " data-target="modal-login">login</a></li>
+                </ul>
+                <ul id='dropdown1' class='dropdown-content center'>
+                    <li><a href="../stories/" class="black-text">Stories</a></li>
+                    <li><a href="../odd_man/" class="black-text">Odd man out</a></li>
+                    <li><a href="../identify_pic/" class="black-text">Identify pic</a></li>
+                    <li><a href="../coloring/" class="black-text">Coloring</a></li>
+                    <li><a href="../add/" class="black-text">Additions</a></li>
+                    <li><a href="../sub/" class="black-text">Subtractions</a></li>
+                    <li><a href="../mul/" class="black-text">Multiplications</a></li>
+                    <li><a href="../div/" class="black-text">Divisions</a></li>
+                    <li><a href="../alphabets/" class="black-text">Alphabets</a></li>
+                    <li><a href="../numbers/" class="black-text">Numbers</a></li>
+                    </div>
+                  </ul>
+                  <a href="#mobile-links" class=" hide-on-large-only sidenav-trigger" data-target="mobile-links">
+                    <i class="material-icons black-text burger">menu</i>
+                </a> 
+                <ul class="sidenav grey lighten-5" id="mobile-links">
+                  <div class="nav">
+                    <li class="l"><a href="../"><img src="../images/pencil.ico" alt=""><p class="black-text text-darken-5 logo">Scribble</p></a></li>
+                    <li class="divider"></li>
+                    <li class="block s_login"><a href="" class="grey-text text-darken-4 modal-trigger" data-target="modal-login" >login</a></li>
+                    <li class=" block s_profile"><a href="#" class="grey-text text-darken-4 modal-trigger" data-target="modal-profile">profile</a></li>
+    
+                    <li><a href="../stories/" class="black-text">Stories</a></li>
+                    <li><a href="../odd_man/" class="black-text">Odd man out</a></li>
+                    <li><a href="../identify_pic/" class="black-text">Identify pic</a></li>
+                    <li><a href="../coloring/" class="black-text">Coloring</a></li>
+                    <li><a href="../add/" class="black-text">Additions</a></li>
+                    <li><a href="../sub/" class="black-text">Subtractions</a></li>
+                    <li><a href="../mul/" class="black-text">Multiplications</a></li>
+                    <li><a href="../div/" class="black-text">Divisions</a></li>
+                    <li><a href="../alphabets/" class="black-text">Alphabets</a></li>
+                    <li><a href="../numbers/" class="black-text">Numbers</a></li>
+                
+                </ul>
+            </div>
+        </nav>
+</header>
+<div class="modal" id="modal-profile">
+  <div class="modal-content container">
+    <div class="container">
+      <div class="row ">
+        <div class="col l3 s12 center">
+          <img src="../images/kids/png/boy-1.png" alt="" class="responsive-img pro_img grey lighten-2">
+        </div>
+        <div class="col l8 s12 offset-l1">
+          <div class="row">
+            <div class="  pro_det ">
+              <h6 class="pro_spec"><span class="hide-on-med-and-down">Name  :</span><span class="pro_name"></span></h6>
+            </div>
+            <div class="  pro_det">
+              <h6 class="pro_spec "><span class="hide-on-med-and-down">E-Mail  :</span><span class="pro_email"></span></h6>
+            </div>
+          </div>
+          
+        </div>
+        
+      </div>
+      <div class="center">
+        <h5 class="center t">Your High Scores</h5>
+      </div>
+      <div class="center large_table">
+        <table class="striped large_table centered responsive-table">
+          <tr>
+            <td class="l">
+             Odd man out
+            </td>
+            <td class="pro_odd scr">
+             
+            </td>
+            <td class="l "> 
+             Identify Pic
+            </td>
+            <td class="pro_pic scr">
+             
+            </td>
+            <td class="l">
+             Identify word
+            </td>
+            <td class="pro_word scr">
+             
+            </td>
+            </tr>
+            <tr>
+             <td class="l">
+               Additions
+             </td>
+             <td class="pro_add scr">
+              
+             </td>
+             <td class="l">
+               Subtractions
+             </td>
+             <td class="pro_sub scr">
+              
+             </td>
+             <td class="l">
+               Multipications
+             </td>
+             <td class="pro_mul scr">
+              
+             </td>
+             </tr>
+             <tr>
+               <td class="l">
+                 Divisions
+               </td>
+               <td class="pro_div scr">
+                
+               </td>
+               <td class="l">
+                 Alphabets
+               </td>
+               <td class="pro_alpha scr">
+                
+               </td>
+               <td class="l">
+                 Numbers
+               </td>
+               <td class="pro_num scr" >
+                
+               </td>
+               </tr>
+               </table>
+      </div>
+       
+
+
+            <table class="striped small_table">
+              <tr>
+                <td>
+                 Odd man out
+                </td>
+                <td class="pro_odd">
+                 
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  Identify Pic
+                 </td>
+                 <td class="pro_pic">
+                  
+                 </td>
+              </tr>
+                <tr>
+                <td>
+                 Identify word
+                </td>
+                <td class="pro_word">
+                 
+                </td>
+                </tr>
+                <tr>
+                 <td>
+                   Additions
+                 </td>
+                 <td class="pro_add">
+                  
+                 </td>
+                </tr>
+                <tr>
+                  <td>
+                    Subtractions
+                  </td>
+                  <td class="pro_sub">
+                   
+                  </td>
+                </tr>
+                <tr>
+                 <td>
+                   Multipications
+                 </td>
+                 <td class="pro_mul">
+                  
+                 </td>
+                 </tr>
+                 <tr>
+                   <td>
+                     Divisions
+                   </td>
+                   <td class="pro_div">
+                    
+                   </td>
+                 </tr>
+                 <tr>
+                  <td>
+                    Alphabets
+                  </td>
+                  <td class="pro_alpha">
+                   
+                  </td>
+                 </tr>
+                   <tr>
+                   <td>
+                     Numbers
+                   </td>
+                   <td class="pro_num">
+                    
+                   </td>
+                   </tr>
+                   </table>
+      <div class="center">
+        <button class="btn-small indigo lighten-1 logout white-text">log out</button>
+      </div>
+      
+    </div>
+    
+  </div>
+</div>
+<div class="modal" id="modal-login">
+  <div class="modal-content container login">
+    <div class="tit">
+      <h5 class="center">Login</h5>
+    </div>
+      <form id="login-form">
+        <div class="input-field">
+          <input type="email" id="login-email" required>
+          <label for="login-email" >E-mail</label>
+        </div>
+        <div class="input-field">
+          <input type="password" id="login-password" required>
+          <label for="login-Password " >Password</label>
+        </div>
+        <div class="container lerrmsg center"></div>
+        <div class="center">
+          <button class="b_login btn-small ">login</button>
+        </div>
+        
+      </form>
+  </div>
+  <div class="modal-content container signup block">
+    <div class="tit">
+      <h5 class="center ">Sign Up</h5>
+    </div>
+    
+      <form id="Signup-form">
+        <div class="input-field">
+          <input type="text" id="signup-name" required>
+          <label for="signup-name " >Name</label>
+        </div>
+        <div class="input-field">
+          <input type="email" id="signup-email" required>
+          <label for="signup-email " >E-mail</label>
+        </div>
+        <div class="input-field">
+          <input type="password" id="signup-password" required>
+          <label for="signup-Password " >Password</label>
+        </div>
+        <div class="container serrmsg center"></div>
+        <div class="center">
+          <button class="b_signup btn-small ">signup</button>
+        </div>
+        
+      </form>
+  </div>
+  <div class="container change-option"><p class="grey-text center">Not registered?<span class="indigo-text"> SignUp</span> </p></div>
+</div>
+
+
+
+
+
+
+<div class="go_shade" style="display:none;">
+</div>
+
+<h5 class=" title center">Identify the word</h5>
+<div class="container large_score center">
+  <span class="ele hi block">
+    <h5 style="display: inline;"">HI :</h5>
+    <h5 style="display: inline;" class="center hi_score_content"></h5>
+  </span>
+    <span class="ele">
+      <h5 style="display: inline;"">Score :</h5>
+    <h5 style="display: inline;" class="center large_score_content">0</h5>
+    </span>
+</div>
+<div class="w_wrapper">
+
+    <div class="go_wrapper "style="display:none;">
+        <div class="row">
+            <div class="col s12 l12">
+                <h4 class="center">Game Over</h4>
+                <div class=" center"><img class="go_img" src="" alt=""></div>
+                <div class="go_answer center">
+                    <h6 class="center">This is
+                    <span class="go_word"></span>
+                    </h6>
+                </div>
+                <div class=" sc container center">
+                    <div class="container center">
+                      <span class="ele hi block">
+                        <h6 style="display: inline;">HI:</h6>
+                        <h6 style="display: inline;" class="go_hi hi_score_content"> </h6>
+                      </span>
+                   <span class="ele">
+                    <h6 style="display: inline;">Score :</h6>
+                    <h6 style="display: inline;" class="go_score"> </h6>
+                   </span>
+                   
+                    </div>
+                </div>
+                <div class="container center">
+                    <button class="btn-small pa center">play again</button>
+                </div>
+                
+            </div>
+        </div>
+        </div>
+
+        
+<div class="panel">
+    <h4 class="h_title center"> <span class="que"></span></h4>
+    <hr class="black-text">
+    <div class="options_panel">
+    <div  class="option "><img class="center"  id="op1" draggable="false"></div>
+    <div  class="option"><img class="center"  id="op2" draggable="false"></div>
+    <div  class="option"><img class="center"id="op3"draggable="false"></div>
+    <div  class="option"><img class="center"id="op4"draggable="false"></div>
+</div>
+  
+    </div>
+</div>
+<div class="res">
+    <div class="msg"><p class="msg_content"></p><img src="../images/msg.png"></div>
+    <div class="animated">
+        <!-- <img class="msg"> -->
+        <img src="../images/intro.gif" alt="rhino" class="gify" draggable="false">
+    </div>
+    
+</div>
+
+<script src="/__/firebase/init.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.13.1/firebase-analytics.js"></script>
+
+<script>
+  var firebaseConfig = {
+    apiKey: "AIzaSyA-6M29PjFX1BNWq24-2SnhLwPD3ZVl96M",
+    authDomain: "scribble-art.firebaseapp.com",
+    databaseURL: "https://scribble-art.firebaseio.com",
+    projectId: "scribble-art",
+    storageBucket: "scribble-art.appspot.com",
+    messagingSenderId: "166812404142",
+    appId: "1:166812404142:web:44885ae802c732d52ca03f",
+    measurementId: "G-RWPMWEMBWE"
+  };
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+
+  const auth=firebase.auth();
+  const db=firebase.firestore();
+</script>
+    <script>
+ 
+         $('.dropdown-trigger').dropdown();
+        $(document).ready(function(){
+            $('.sidenav').sidenav();
+        })
+        document.addEventListener("DOMContentLoaded",()=>{
+const modals=document.querySelectorAll(".modal");
+modals.forEach(modal=>{
+  $(modal).modal({});
+})
+        });
+            
+         
+    </script>
+    <script src="index.js"></script>
+</body>
+</html>

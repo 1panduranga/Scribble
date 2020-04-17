@@ -1,0 +1,262 @@
+
+.pic{
+    display: inline-block ;
+    float: right;
+    margin:20px;
+    height:350px;
+    width:350px;
+}
+.modal,table{
+    color:black;
+}
+.story p{
+    line-height: 1.5em;
+    font-size: 1.5em;
+    text-align: justify;
+
+}
+.brand-logo
+{
+    font-weight: normal;
+}
+.cover{
+    height: 200px;
+    width: 200px;
+}
+.title{
+    font-size: 2em;
+    font-family: cursive;
+    font-weight:normal;
+}
+.wrapper
+{
+    margin: 0% 5% 0% 10%;
+    padding:5%;
+    font-size:1em;
+}
+.controls{
+    position:fixed;
+    max-width:50px;
+    background-color: rgb(247, 247, 247);
+    border-radius: 10px;
+    padding:0px 0px;
+    margin:75px 0px 0px 25px;
+    
+}
+.controls:hover{
+    cursor: pointer;
+}
+.control{
+    height:40px;
+    width:40px;
+    display: inline-block;
+    margin:5px;
+}
+.control img{
+    height:40px;
+    width:40px;
+    display: inline-block;
+    transition: 0.5s;
+}
+.dark
+{
+    background-color: rgb(61, 61, 61);
+    color:white;
+    transition:0.5s;
+}
+.light
+{
+    background-color: white;
+    transition:0.5s;
+
+}
+::selection
+{
+	color:rgb(98, 130, 219);
+}
+.head
+{
+    position: relative;
+    top:-20px;
+    display: inline-block;
+    margin: 0px 40px ;
+}
+.author
+{
+    font-weight: normal;
+    display: inline-block;
+}
+.time{
+    display: inline-block;
+    font-weight: normal;
+}
+
+.pen,.time{
+    margin: 0px 5px -2px 5px;
+}
+.nav_link
+{
+    font-weight: normal;
+}
+
+
+
+.l{
+    width:400px;
+}
+.pro_name,.pro_email{
+    margin:5px 0px 0px 20px;
+}
+.change-option:hover{
+    cursor: pointer;
+}
+.block{
+    display: none;
+}
+.modal
+{
+    border-radius: 20px;
+    padding:20px;
+}
+.pro_img
+{
+    border-radius: 50%;
+}
+
+.logout{
+    margin:20px 0px 0px 0px ;
+}
+.large_table{
+    display:block;
+}
+.small_table{
+    display:none;
+}
+
+@media screen and (max-width:992px){
+
+    .lmsg{
+        position: fixed;
+    }
+    .t{
+        font-size:0.8em;
+        font-weight:bold;
+    } .pro_det 
+    h6{
+        font-size:0.6em;
+        text-align: center;
+        font-weight: bold;;
+        }
+        td{
+            width:170px;
+        }
+
+    .tit h5{
+        margin:0px;
+        padding:0px;
+    }
+    .modal{
+        margin:0px auto;
+    }
+    .pro_img{
+        width:100px;
+        height:100px;
+    }
+    .large_table{
+        display:none;
+    }
+    .small_table{
+        display:block;
+    }
+    .modal{
+        width:97%;
+        padding:0px;
+    }
+    #signup-email,#login-email,#signup-password,#login-password,#signup-name{
+        width:105%;
+       
+    }
+    #modal-login{
+        overflow:auto;
+        height:fit-content;
+    }
+
+
+
+
+
+
+
+
+
+
+
+    .control{
+        height:20px;
+        width:20px;
+
+    }
+    .controls{
+        width:30px;
+        display: inline-block;
+        margin:30px 0px 0px 10px;
+        -webkit-tap-highlight-color: transparent;
+    }
+    .head p{
+        font-size: 1.3em;
+    }
+    .control img{
+        height:20px;
+        width:20px;
+        display: inline-block;
+    }
+    .pic{
+        display: inline-block ;
+        margin:20px;
+        height:250px;
+        width:250px;
+    }
+   
+    .logo {
+        font-size:2em;
+        display: inline;
+    }
+    .logo{
+        padding:0px;
+        margin:-2px 5px;
+    }
+    .l img {
+     height:25px;
+     width:25px;
+     padding:0px;
+     margin:10px 0px 0px 0px;
+    }
+    .title{
+        font-size: 1.4em;
+        font-family: cursive;
+        font-weight:normal;
+    }
+    .author
+{
+    font-size:10px
+}
+.time{
+    font-size:10px;
+}
+.cover{
+    margin:0% 20%;
+    height:150px;
+    width:150px;
+}
+.head{
+    margin:5% 20% 2% 20% ;
+}
+.l a p{
+    font-weight:normal;
+}
+.change-option{
+    margin:-15px auto 0px auto;
+}
+
+
+}

@@ -1,0 +1,18 @@
+[
+    {"no":1,"name":"arm","src":"../images/body parts/png/arm.png"},
+    {"no":2,"name":"brain","src":"../images/body parts/png/brain.png"},
+    {"no":3,"name":"ear","src":"../images/body parts/png/ear.png"},
+    {"no":4,"name":"elbow","src":"../images/body parts/png/elbow.png"},
+    {"no":5,"name":"eye","src":"../images/body parts/png/eye.png"},
+    {"no":6,"name":"finger","src":"../images/body parts/png/finger.png"},
+    {"no":7,"name":"foot","src":"../images/body parts/png/foot.png"},
+    {"no":8,"name":"hand","src":"../images/body parts/png/hand.png"},
+    {"no":9,"name":"head","src":"../images/body parts/png/head.png"},
+    {"no":10,"name":"heart","src":"../images/body parts/png/heart.png"},
+    {"no":11,"name":"leg","src":"../images/body parts/png/leg.png"},
+    {"no":12,"name":"lips","src":"../images/body parts/png/lips.png"},
+    {"no":13,"name":"neck","src":"../images/body parts/png/neck.png"},
+    {"no":14,"name":"nose","src":"../images/body parts/png/nose.png"},
+    {"no":15,"name":"stomach","src":"../images/body parts/png/stomach.png"},
+    {"no":16,"name":"tooth","src":"../images/body parts/png/tooth.png"}
+]

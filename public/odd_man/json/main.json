@@ -1,0 +1,13 @@
+[
+    {"name":"body part","src":"json/body parts.json","count":16},
+    {"name":"land mark","src":"json/land marks.json","count":17},
+    {"name":"thing","src":"json/things.json","count":21},
+    {"name":"snack","src":"json/food.json","count":41},
+    {"name":"kid","src":"json/kids.json","count":50},
+    {"name":"vegetable","src":"json/vegetables.json","count":12},
+    {"name":"fruit","src":"json/fruits.json","count":14},
+    {"name":"animal","src":"json/animals.json","count":10},
+    {"name":"insect","src":"json/insects.json","count":17},
+    {"name":"vehicle","src":"json/vehicles.json","count":10},
+    {"name":"public place","src":"json/public places.json","count":9}
+]
