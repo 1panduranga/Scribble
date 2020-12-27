@@ -52,6 +52,7 @@ features included
 - dark and light mode
 - font inrcease and decrease
 - change font styles
+- remembers your preferences
 <kbd>
   <img src="screenshots/desktop%20stories.gif">
 </kbd>
