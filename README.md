@@ -1,7 +1,7 @@
 # Scribble
 This is a web application for kids(age: 3-7) to learn and play which includes games,quizzes and few coloring tasks
 <br />
-App URL: https://scribble-art.firebase.com
+App URL: https://scribble-art.firebaseapp.com
 <br />
 <br />
 <br />
